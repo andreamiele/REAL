@@ -8,6 +8,7 @@
 
 ## Introduction
 Welcome to our AI tutor project designed to assist with EPFL course content! This project aims to build a real-world language model for educational assistance by generating training data, training a generator model, and extending it in innovative ways. This README will guide you through the structure of our project repository and provide links to essential resources.
+This project is part of the **Modern Natural Language Processing** course (CS-552) at EPFL, Spring 2024, worth 8 ECTS credits.
 
 ## Repository Structure
 ```plaintext
