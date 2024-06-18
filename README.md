@@ -20,20 +20,20 @@ final-version/
 ├── pdfs/
 │   └── REAL.pdf
 │
-├── milestone-1/
-│   ├── _docs/
-│   ├── data/
-│   ├── milestone1/
-│   ├── pdfs/
-│   ├── README.md
-│   ├── t.py
-│   └── test.py
+milestone-1/
+│── _docs/
+├── data/
+├── milestone1/
+├── pdfs/
+├── README.md
+├── t.py
+└── test.py
 │
-├── milestone-2/
-│   ├── data/
-│   ├── model/
-│   ├── pdfs/
-│   └── README.md
+milestone-2/
+├── data/
+├── model/
+├── pdfs/
+└── README.md
 │
 └── README.md
 ```
