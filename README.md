@@ -1,7 +1,7 @@
 # Project Title: AI Tutor for EPFL Course Content
 
 ## Team Members
-- Andrea Miele [andrea.miele@epfl.ch](mailto:andrea.miele@epfl.ch)
+- Andrea Miele ([andrea.miele@epfl.ch](mailto:andrea.miele@epfl.ch))
 - Luca Mouchel
 - Elia Mounier-Poulat
 - Frederik Gerard de Vries
