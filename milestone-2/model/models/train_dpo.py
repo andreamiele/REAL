@@ -19,9 +19,6 @@ import wandb
 from peft import get_peft_model
 
 
-wandb.login(key='4ad67c4fbf069317f2f88cd0a691a523519a3617')
-wandb.init(project='epfl-mnlp', entity="rl-project-lma")
-
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data-dir', default='datasets/dpo/all_dpo.json')

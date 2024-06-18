@@ -17,8 +17,6 @@ from datetime import datetime
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 import wandb
-wandb.login(key='4ad67c4fbf069317f2f88cd0a691a523519a3617')
-wandb.init(project='epfl-mnlp', entity="rl-project-lma")
 def formatting_prompts_func(example, tokenizer):
     data = []
     for i in range(len(example['question'])):
