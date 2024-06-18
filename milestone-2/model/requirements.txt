@@ -1,0 +1,13 @@
+transformers
+datasets
+evaluate
+nltk
+tensorboard
+wandb
+optimum
+accelerate
+torch
+bitsandbytes
+peft
+trl @ git+https://github.com/huggingface/trl.git
+scikit-learn

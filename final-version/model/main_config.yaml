@@ -1,0 +1,14 @@
+# TODO: remove dashed lines (is to highlight what is still to change!)
+"team_name": "REAL" # Your team name
+"eval_method": ["mcqa", "rag", "quantiz"] # mcqa, reward, rag, quantiz
+"task_type": "causal_lm" # causal_lm, seq2seq
+"policy_model_path": "microsoft/phi-2" # Your path to the final checkpoint
+"reference_model_path": "microsoft/phi-2" # The repo id of your pretrained reference model
+"quantized_policy_model_path": "aerdna/phi2-q" # Your path to the final quantized checkpoint
+"rag_policy_model_path": "microsoft/phi-2" # Your path to the final RAG checkpoint
+"test_data_path": "datasets/mcq/datatest.jsonl" # Your path to the test data
+"dpo_model_args": null # Put any model arguments required to load your DPO model below
+"rag_model_args":
+  "use_rag": True
+"quantized_model_args":
+  "use_q": True

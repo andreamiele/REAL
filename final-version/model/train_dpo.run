@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -J generation_job       # Job name
+#SBATCH -o generation_job.out   # Output file
+#SBATCH -e generation_job.err   # Error file
+#SBATCH --chdir /scratch/izar/amiele  # Change to specified directory
+#SBATCH --ntasks 1              # Number of tasks
+#SBATCH --cpus-per-task=20      # Number of CPU cores per task
+#SBATCH --mem=80G               # Memory per node
+#SBATCH --time=1-00:00:00       # Time limit (days-hh:mm:ss)
+#SBATCH --gres gpu:1            # Number of GPUs
+#SBATCH --account cs-552        # Account name
+#SBATCH --qos cs-552            # QoS
+
+# Load necessary modules
+module load python
+
+# Run the Python script
+python models/train_dpo.py --data-dir=project-m2-2024-real/data/dpo_prepared/dpo.json --logging-steps=10 --ref-model-path=models/sft_gemma-2b --n-epochs=5 --batch-size=4 --max-length=600
+
